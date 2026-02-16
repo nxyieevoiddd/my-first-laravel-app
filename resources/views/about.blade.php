@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> my first laravel app</h1>
-    <a href="about"> about</a>
+    <h1>About page </h1>
+    <a href="/"> welcome</a>
+    <br>
+    {{$name}}
+    <?php echo $name ?>
 </body>
 </html>
